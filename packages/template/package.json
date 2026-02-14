@@ -1,0 +1,63 @@
+{
+  "name": "@library/template",
+  "version": "0.0.1",
+  "description": "[ENTER DESCRIPTION HERE]",
+  "main": "./dist/index.cjs",
+  "type": "module",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "benchmark": "tsc --project tsconfig.benchmark.json",
+    "lint": "eslint --cache src",
+    "typecheck": "tsc --noEmit --preserveWatchOutput --pretty",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "tsdown": "^0.16.8",
+    "typescript": "^5.9.3"
+  },
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "package.json",
+    "thing",
+    "!**/*.test.*",
+    "!**/__tests__"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./thing": {
+      "import": {
+        "types": "./dist/thing/index.d.mts",
+        "default": "./dist/thing/index.mjs"
+      },
+      "require": {
+        "types": "./dist/thing/index.d.cts",
+        "default": "./dist/thing/index.cjs"
+      }
+    }
+  },
+  "funding": [
+    "https://trpc.io/sponsor"
+  ],
+  "peerDependencies": {
+    "typescript": ">=5.7.2"
+  }
+}

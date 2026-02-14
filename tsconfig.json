@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.build.json",
+  "include": [
+    "apps",
+    "packages",
+    "scripts"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "allowJs": false,
+    "module": "nodenext",
+    "paths": {
+      "@platform/client": ["./packages/client/src"],
+      "@platform/client/*": ["./packages/client/src/*"],
+      "@platform/config": ["./packages/config/src"],
+      "@platform/config/*": ["./packages/config/src/*"],
+      "@platform/shared": ["./packages/shared/src"],
+      "@platform/shared/*": ["./packages/shared/src/*"],
+    },
+    "types": ["node", "vitest/globals"]
+  }
+}
