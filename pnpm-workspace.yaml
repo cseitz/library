@@ -3,5 +3,6 @@ useNodeVersion: 24.13.1
 packages:
   # - "apps/*"
   - "packages/*"
+  - "!packages/.template"
   # - "examples/*"
   # - "examples/**/*"
