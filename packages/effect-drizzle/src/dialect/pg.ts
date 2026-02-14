@@ -125,12 +125,13 @@ class DrizzleEffectPgImplementation<Types extends DrizzleEffectPgTypes<any, any,
 
 function defineDrizzlePg<Self extends unknown = unknown>() {
   return <
+    TagName extends string,
     TSchema extends Record<string, unknown>,
     TRelations extends AnyRelations = EmptyRelations
   >(def: {
+    tag: TagName;
     schema: TSchema;
     relations: TRelations;
-    tag?: string;
     /**
      * Custom internals implementation for the database.
      * - You should provide an extended `DrizzleEffectPgImplementation` class, or a partial implementation in the form of an object.
@@ -285,7 +286,13 @@ function defineDrizzlePg<Self extends unknown = unknown>() {
             ...config,
           });
 
-          return Object.assign(db, {
+          // remaps the type to `IDatabase` to simplify the type in Effect context
+          // NOTE: if any typescript issues arise, its probably because of this
+          // @ts-expect-error
+          const dbWithSimpleType = db as any as Self['Types']['Database'];
+
+          // @ts-expect-error
+          return Object.assign(dbWithSimpleType, {
             ...exports,
           });
         }),
@@ -299,6 +306,9 @@ function defineDrizzlePg<Self extends unknown = unknown>() {
       static override Client = PgClient; //statics.Client;
       static TaggedClass = implementation.defineTaggedClass;
       static CurrentTransaction = implementation.CurrentTransaction;
+      static Types: {
+        Database: IDatabase;
+      } = {} as any;
     }
 
     let Database = BaseDatabaseClassTag;

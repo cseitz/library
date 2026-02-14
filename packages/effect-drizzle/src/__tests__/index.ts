@@ -11,10 +11,11 @@ describe('Pg', () => {
 });
 
 class Postgres1 extends Drizzle.Pg<Postgres1>()({
+  tag: 'Postgres1',
   schema,
   relations,
 }) {}
 
-Effect.gen(function* () {
+const program1 = Effect.gen(function* () {
   const db = yield* Postgres1;
 });
