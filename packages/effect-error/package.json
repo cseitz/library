@@ -10,7 +10,8 @@
     "benchmark": "tsc --project tsconfig.benchmark.json",
     "lint": "eslint --cache src",
     "typecheck": "tsc --noEmit --preserveWatchOutput --pretty",
-    "test": "vitest"
+    "test": "vitest run",
+    "test:dev": "vitest"
   },
   "publishConfig": {
     "@library:registry": "http://localhost:4873"

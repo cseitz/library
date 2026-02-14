@@ -1,5 +1,5 @@
 import { it } from '@effect/vitest';
-import { Error } from '../..';
+import { Error } from '../index';
 import { Effect } from 'effect';
 
 

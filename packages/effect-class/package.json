@@ -1,7 +1,7 @@
 {
-  "name": "@library/effect-tag",
+  "name": "@library/effect-class",
   "version": "0.0.1",
-  "description": "A tag for effects",
+  "description": "A class for effects",
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
@@ -23,7 +23,10 @@
   "devDependencies": {
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
-    "@effect/vitest": "^0.27.0"
+    "@effect/vitest": "^0.27.0",
+    "@library/effect-tag": "workspace:*",
+    "@library/effect-fn": "workspace:*",
+    "@library/effect-sequential-layer": "workspace:*"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",

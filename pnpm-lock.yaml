@@ -49,6 +49,37 @@ importers:
         specifier: ^4.0.18
         version: 4.0.18(@types/node@25.2.3)(tsx@4.21.0)
 
+  packages/effect-class:
+    dependencies:
+      '@types/lodash-es':
+        specifier: '>=4.17.12'
+        version: 4.17.12
+      effect:
+        specifier: '>=3.19.17'
+        version: 3.19.17
+      lodash-es:
+        specifier: '>=4.17.22'
+        version: 4.17.23
+    devDependencies:
+      '@effect/vitest':
+        specifier: ^0.27.0
+        version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
+      '@library/effect-fn':
+        specifier: workspace:*
+        version: link:../effect-fn
+      '@library/effect-sequential-layer':
+        specifier: workspace:*
+        version: link:../effect-sequential-layer
+      '@library/effect-tag':
+        specifier: workspace:*
+        version: link:../effect-tag
+      tsdown:
+        specifier: ^0.16.8
+        version: 0.16.8(typescript@5.9.3)
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
   packages/effect-error:
     dependencies:
       '@types/lodash-es':
@@ -64,6 +95,84 @@ importers:
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
+      tsdown:
+        specifier: ^0.16.8
+        version: 0.16.8(typescript@5.9.3)
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
+  packages/effect-fn:
+    dependencies:
+      '@types/lodash-es':
+        specifier: '>=4.17.12'
+        version: 4.17.12
+      effect:
+        specifier: '>=3.19.17'
+        version: 3.19.17
+      lodash-es:
+        specifier: '>=4.17.22'
+        version: 4.17.23
+    devDependencies:
+      '@effect/vitest':
+        specifier: ^0.27.0
+        version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
+      '@library/effect-error':
+        specifier: workspace:*
+        version: link:../effect-error
+      '@library/effect-logger':
+        specifier: workspace:*
+        version: link:../effect-logger
+      tsdown:
+        specifier: ^0.16.8
+        version: 0.16.8(typescript@5.9.3)
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
+  packages/effect-logger:
+    dependencies:
+      '@types/lodash-es':
+        specifier: '>=4.17.12'
+        version: 4.17.12
+      effect:
+        specifier: '>=3.19.17'
+        version: 3.19.17
+      lodash-es:
+        specifier: '>=4.17.22'
+        version: 4.17.23
+    devDependencies:
+      '@effect/vitest':
+        specifier: ^0.27.0
+        version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
+      '@library/effect-tag':
+        specifier: workspace:*
+        version: link:../effect-tag
+      tsdown:
+        specifier: ^0.16.8
+        version: 0.16.8(typescript@5.9.3)
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
+  packages/effect-sequential-layer:
+    dependencies:
+      '@types/lodash-es':
+        specifier: '>=4.17.12'
+        version: 4.17.12
+      effect:
+        specifier: '>=3.19.17'
+        version: 3.19.17
+      lodash-es:
+        specifier: '>=4.17.22'
+        version: 4.17.23
+    devDependencies:
+      '@effect/vitest':
+        specifier: ^0.27.0
+        version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
+      '@library/effect-tag':
+        specifier: workspace:*
+        version: link:../effect-tag
       tsdown:
         specifier: ^0.16.8
         version: 0.16.8(typescript@5.9.3)

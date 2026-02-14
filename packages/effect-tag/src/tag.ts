@@ -133,6 +133,7 @@ export type MakeTag<
   MaybeShape = never,
   AdditionalStatics = {},
 > = (
+  // shape is not provided, must infer from make function
   NonNullable<MaybeShape> extends never
     ? (
       <
@@ -153,6 +154,7 @@ export type MakeTag<
         // }
       )
     )
+    // shape is provided, use it directly
     : (
       & (
         <
@@ -177,7 +179,8 @@ export type MakeTag<
           key: Key,
           config: { exports?: Exports } & Config
         ) => (
-          & Tag<Self, Key, never, MaybeShape, AdditionalStatics, Exports>
+          // @ts-expect-error
+          & Tag<Self, Key, Config, MaybeShape, AdditionalStatics, Exports>
           // & BaseTag<Self, Key, MaybeShape, { exports: Exports }>
           // & (MakeAccessors<Config> extends true ? Effect.Tag.Proxy<Self, MaybeShape> : {})
           // & AdditionalStatics
