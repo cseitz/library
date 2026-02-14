@@ -126,8 +126,6 @@ export async function generateEntrypoints(rawInputs: string[]) {
   pkgJson.files.push('!**/*.spec.*');
   pkgJson.files.push('!**/__test__');
   pkgJson.files.push('!**/__tests__');
-  // Add `funding` in all packages
-  pkgJson.funding = ['https://trpc.io/sponsor'];
 
   // Add `peerDependencies` in all packages
   pkgJson.peerDependencies ??= {};

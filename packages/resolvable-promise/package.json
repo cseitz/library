@@ -45,9 +45,6 @@
       }
     }
   },
-  "funding": [
-    "https://trpc.io/sponsor"
-  ],
   "peerDependencies": {
     "typescript": ">=5.7.2"
   }
