@@ -13,7 +13,7 @@
     "test": "vitest"
   },
   "publishConfig": {
-    "@library:registry": "https://npm.pkg.github.com"
+    "@library:registry": "http://localhost:4873"
   },
   "keywords": [],
   "author": "",

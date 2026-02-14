@@ -3,5 +3,5 @@
 ## Installing Packages
 
 ```bash
-pnpm config set @library:registry https://example.com --location project
+pnpm config set @library:registry http://localhost:4873 --location project
 ```
