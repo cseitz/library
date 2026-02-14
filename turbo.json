@@ -1,0 +1,46 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalDependencies": [
+    ".eslintrc.config.js",
+    "tsconfig.json",
+    "tsconfig.build.json",
+    "scripts/**"
+  ],
+  "globalEnv": [],
+  "tasks": {
+    "prebuild": {
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["^build", "prebuild"],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "dist/**",
+        "build/**",
+        "docs/typedoc/**"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "dependsOn": ["^build"],
+      "outputs": [],
+      "cache": true
+    },
+    "typecheck": {
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "test:dev": {
+      "dependsOn": ["^build"]
+    },
+    "test:start": {
+      "dependsOn": ["^build", "build"]
+    }
+  }
+}
