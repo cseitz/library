@@ -1,4 +1,4 @@
-# Library - Effect Tag
+# Library - Effect Class
 
 ## Development
 
