@@ -8,9 +8,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cseitz/library.git",
-    "directory": "packages/effect-drizzle",
-    "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-drizzle"
+    "directory": "packages/effect-drizzle"
   },
+  "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-drizzle",
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
@@ -27,8 +27,8 @@
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
     "@effect/vitest": "^0.27.0",
-    "@cseitz/effect-fn": "workspace:*",
-    "@cseitz/effect-tag": "workspace:*"
+    "@cseitz/effect-fn": "^0.0.1",
+    "@cseitz/effect-tag": "^0.0.1"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",

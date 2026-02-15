@@ -8,9 +8,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cseitz/library.git",
-    "directory": "packages/effect-class",
-    "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-class"
+    "directory": "packages/effect-class"
   },
+  "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-class",
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
@@ -27,9 +27,9 @@
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
     "@effect/vitest": "^0.27.0",
-    "@cseitz/effect-tag": "workspace:*",
-    "@cseitz/effect-fn": "workspace:*",
-    "@cseitz/effect-sequential-layer": "workspace:*"
+    "@cseitz/effect-tag": "^0.0.1",
+    "@cseitz/effect-fn": "^0.0.1",
+    "@cseitz/effect-sequential-layer": "^0.0.1"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",

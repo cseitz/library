@@ -1,6 +1,6 @@
 {
   "name": "@cseitz/effect-tag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tag for effects",
   "author": "cseitz",
   "keywords": [],
@@ -8,9 +8,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cseitz/library.git",
-    "directory": "packages/effect-tag",
-    "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-tag"
+    "directory": "packages/effect-tag"
   },
+  "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-tag",
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {

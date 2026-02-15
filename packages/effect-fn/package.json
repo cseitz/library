@@ -8,9 +8,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cseitz/library.git",
-    "directory": "packages/effect-fn",
-    "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-fn"
+    "directory": "packages/effect-fn"
   },
+  "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-fn",
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
@@ -27,8 +27,8 @@
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
     "@effect/vitest": "^0.27.0",
-    "@cseitz/effect-logger": "workspace:*",
-    "@cseitz/effect-error": "workspace:*"
+    "@cseitz/effect-logger": "^0.0.1",
+    "@cseitz/effect-error": "^0.0.1"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",

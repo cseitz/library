@@ -73,18 +73,18 @@ importers:
         specifier: '>=4.17.22'
         version: 4.17.23
     devDependencies:
+      '@cseitz/effect-fn':
+        specifier: ^0.0.1
+        version: link:../effect-fn
+      '@cseitz/effect-sequential-layer':
+        specifier: ^0.0.1
+        version: link:../effect-sequential-layer
+      '@cseitz/effect-tag':
+        specifier: ^0.0.1
+        version: link:../effect-tag
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@cseitz/effect-fn':
-        specifier: workspace:*
-        version: link:../effect-fn
-      '@cseitz/effect-sequential-layer':
-        specifier: workspace:*
-        version: link:../effect-sequential-layer
-      '@cseitz/effect-tag':
-        specifier: workspace:*
-        version: link:../effect-tag
       tsdown:
         specifier: ^0.16.8
         version: 0.16.8(typescript@5.9.3)
@@ -116,15 +116,15 @@ importers:
         specifier: '>=8.16.3'
         version: 8.18.0
     devDependencies:
+      '@cseitz/effect-fn':
+        specifier: ^0.0.1
+        version: link:../effect-fn
+      '@cseitz/effect-tag':
+        specifier: ^0.0.1
+        version: link:../effect-tag
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@cseitz/effect-fn':
-        specifier: workspace:*
-        version: link:../effect-fn
-      '@cseitz/effect-tag':
-        specifier: workspace:*
-        version: link:../effect-tag
       tsdown:
         specifier: ^0.16.8
         version: 0.16.8(typescript@5.9.3)
@@ -166,15 +166,15 @@ importers:
         specifier: '>=4.17.22'
         version: 4.17.23
     devDependencies:
+      '@cseitz/effect-error':
+        specifier: ^0.0.1
+        version: link:../effect-error
+      '@cseitz/effect-logger':
+        specifier: ^0.0.1
+        version: link:../effect-logger
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@cseitz/effect-error':
-        specifier: workspace:*
-        version: link:../effect-error
-      '@cseitz/effect-logger':
-        specifier: workspace:*
-        version: link:../effect-logger
       tsdown:
         specifier: ^0.16.8
         version: 0.16.8(typescript@5.9.3)
@@ -194,12 +194,12 @@ importers:
         specifier: '>=4.17.22'
         version: 4.17.23
     devDependencies:
+      '@cseitz/effect-tag':
+        specifier: ^0.0.1
+        version: link:../effect-tag
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@cseitz/effect-tag':
-        specifier: workspace:*
-        version: link:../effect-tag
       tsdown:
         specifier: ^0.16.8
         version: 0.16.8(typescript@5.9.3)
@@ -219,12 +219,12 @@ importers:
         specifier: '>=4.17.22'
         version: 4.17.23
     devDependencies:
+      '@cseitz/effect-tag':
+        specifier: ^0.0.1
+        version: link:../effect-tag
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@cseitz/effect-tag':
-        specifier: workspace:*
-        version: link:../effect-tag
       tsdown:
         specifier: ^0.16.8
         version: 0.16.8(typescript@5.9.3)
@@ -244,12 +244,12 @@ importers:
         specifier: '>=4.17.22'
         version: 4.17.23
     devDependencies:
+      '@cseitz/effect-tag':
+        specifier: ^0.0.1
+        version: link:../effect-tag
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@cseitz/effect-tag':
-        specifier: workspace:*
-        version: link:../effect-tag
       tsdown:
         specifier: ^0.16.8
         version: 0.16.8(typescript@5.9.3)

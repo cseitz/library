@@ -8,9 +8,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cseitz/library.git",
-    "directory": "packages/resolvable-promise",
-    "homepage": "https://github.com/cseitz/library/tree/main/packages/resolvable-promise"
+    "directory": "packages/resolvable-promise"
   },
+  "homepage": "https://github.com/cseitz/library/tree/main/packages/resolvable-promise",
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
