@@ -12,7 +12,7 @@ pnpm test
 ## Usage
 
 ```ts
-import { Tag } from '@library/effect-tag';
+import { Tag } from '@cseitz/effect-tag';
 
 // a simple tag with a make function
 class SomeTag extends Tag<SomeTag>()('SomeTag', {

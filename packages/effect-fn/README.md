@@ -12,7 +12,7 @@ pnpm test
 ## Usage
 
 ```ts
-import { fn } from '@library/effect-fn';
+import { fn } from '@cseitz/effect-fn';
 
 class SomeClass1 {
   message = 'hello';

@@ -12,7 +12,7 @@ pnpm test
 ## Usage
 
 ```ts
-import { Error } from '@library/effect-error';
+import { Error } from '@cseitz/effect-error';
 
 class SomeError extends Error('SomeError')<SomeError, {
   someValue: string;

@@ -12,7 +12,7 @@ pnpm test
 ## Usage
 
 ```ts
-import { Log } from '@library/effect-logger';
+import { Log } from '@cseitz/effect-logger';
 
 const program1 = Effect.gen(function* () {
   yield* Log.info('hello');

@@ -11,12 +11,12 @@ pnpm config set @library:registry http://localhost:4873 --location project
 ```ts
 // ./src/lib/index.ts
 
-export * from '@library/effect-fn';
-export * from '@library/effect-tag';
-export * from '@library/effect-error';
-export * from '@library/effect-layer-builder';
-export * from '@library/effect-sequential-layer';
-export * from '@library/effect-drizzle';
+export * from '@cseitz/effect-fn';
+export * from '@cseitz/effect-tag';
+export * from '@cseitz/effect-error';
+export * from '@cseitz/effect-layer-builder';
+export * from '@cseitz/effect-sequential-layer';
+export * from '@cseitz/effect-drizzle';
 
 ```
 

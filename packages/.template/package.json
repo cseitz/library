@@ -1,7 +1,16 @@
 {
-  "name": "@library/template",
+  "name": "@cseitz/template",
   "version": "0.0.1",
   "description": "[ENTER DESCRIPTION HERE]",
+  "author": "cseitz",
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cseitz/library.git",
+    "directory": "packages/.template",
+    "homepage": "https://github.com/cseitz/library/tree/main/packages/.template"
+  },
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
@@ -12,12 +21,6 @@
     "typecheck": "tsc --noEmit --preserveWatchOutput --pretty",
     "test": "vitest"
   },
-  "publishConfig": {
-    "@library:registry": "http://localhost:4873"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "packageManager": "pnpm@10.29.3",
   "devDependencies": {
     "tsdown": "^0.16.8",

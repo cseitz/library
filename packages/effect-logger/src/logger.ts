@@ -1,5 +1,5 @@
 import { Effect, Layer, Logger, LogLevel, Option } from 'effect';
-import { Tag } from '@library/effect-tag';
+import { Tag } from '@cseitz/effect-tag';
 import { toLower } from 'lodash-es';
 
 interface MinimumLogLevelPattern {

@@ -2,7 +2,7 @@
 # Library - Resolvable Promise
 
 ```bash
-pnpm add @library/resolvable-promise
+pnpm add @cseitz/resolvable-promise
 ```
 
 ## Development
@@ -17,7 +17,7 @@ pnpm test
 ## Usage
 
 ```ts
-import { createResolvablePromise, ResolvablePromise } from '@library/resolvable-promise';
+import { createResolvablePromise, ResolvablePromise } from '@cseitz/resolvable-promise';
 
 const promise: ResolvablePromise<string> = createResolvablePromise<string>();
 
