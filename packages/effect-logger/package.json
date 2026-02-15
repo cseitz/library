@@ -2,6 +2,15 @@
   "name": "@cseitz/effect-logger",
   "version": "0.0.1",
   "description": "A logger for effects",
+  "author": "cseitz",
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cseitz/library.git",
+    "directory": "packages/effect-logger",
+    "homepage": "https://github.com/cseitz/library/tree/main/packages/effect-logger"
+  },
   "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
@@ -13,12 +22,6 @@
     "test": "vitest run",
     "test:dev": "vitest"
   },
-  "publishConfig": {
-    "@library:registry": "http://localhost:4873"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "packageManager": "pnpm@10.29.3",
   "devDependencies": {
     "tsdown": "^0.16.8",
