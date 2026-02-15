@@ -12,7 +12,7 @@ pnpm test
 ## Usage
 
 ```ts
-import { SequentialLayer } from '@library/effect-sequential-layer';
+import { SequentialLayer } from '@cseitz/effect-sequential-layer';
 
 const sequentialLayer = SequentialLayer.of(Layer.empty)
   .effect(SomeTag, SomeTag1.make())

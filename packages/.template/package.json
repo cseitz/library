@@ -1,5 +1,5 @@
 {
-  "name": "@library/template",
+  "name": "@cseitz/template",
   "version": "0.0.1",
   "description": "[ENTER DESCRIPTION HERE]",
   "main": "./dist/index.cjs",

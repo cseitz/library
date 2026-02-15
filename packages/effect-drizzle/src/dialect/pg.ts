@@ -1,5 +1,5 @@
-import { fn } from '@library/effect-fn';
-import { Tag } from '@library/effect-tag';
+import { fn } from '@cseitz/effect-fn';
+import { Tag } from '@cseitz/effect-tag';
 import { PgClient } from '@effect/sql-pg';
 import {
   type AnyRelations,

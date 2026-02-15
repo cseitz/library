@@ -1,5 +1,5 @@
 {
-  "name": "@library/effect-tag",
+  "name": "@cseitz/effect-tag",
   "version": "0.0.1",
   "description": "A tag for effects",
   "main": "./dist/index.cjs",

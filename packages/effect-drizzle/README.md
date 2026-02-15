@@ -12,7 +12,7 @@ pnpm test
 ## Usage
 
 ```ts
-import { Drizzle } from '@library/effect-drizzle';
+import { Drizzle } from '@cseitz/effect-drizzle';
 import * as schema from './schema';
 import relations from './relations';
 

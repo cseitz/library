@@ -1,6 +1,6 @@
 import { expect, it } from '@effect/vitest';
 import { Effect } from 'effect';
-import { Tag } from '@library/effect-tag';
+import { Tag } from '@cseitz/effect-tag';
 import { LayerBuilder } from '../index';
 
 class SomeMessage1 extends Tag<SomeMessage1>()('SomeMessage1', {

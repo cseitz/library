@@ -1,9 +1,9 @@
 import { it } from '@effect/vitest';
 import { Console, Effect, Layer } from 'effect';
-import { Tag } from '@library/effect-tag';
+import { Tag } from '@cseitz/effect-tag';
 import { Class } from '../index';
-import { fn } from '@library/effect-fn';
-import { SequentialLayer } from '@library/effect-sequential-layer';
+import { fn } from '@cseitz/effect-fn';
+import { SequentialLayer } from '@cseitz/effect-sequential-layer';
 
 
 

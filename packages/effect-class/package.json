@@ -1,5 +1,5 @@
 {
-  "name": "@library/effect-class",
+  "name": "@cseitz/effect-class",
   "version": "0.0.1",
   "description": "A class for effects",
   "main": "./dist/index.cjs",
@@ -24,9 +24,9 @@
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
     "@effect/vitest": "^0.27.0",
-    "@library/effect-tag": "workspace:*",
-    "@library/effect-fn": "workspace:*",
-    "@library/effect-sequential-layer": "workspace:*"
+    "@cseitz/effect-tag": "workspace:*",
+    "@cseitz/effect-fn": "workspace:*",
+    "@cseitz/effect-sequential-layer": "workspace:*"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",

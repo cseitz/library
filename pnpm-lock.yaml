@@ -76,13 +76,13 @@ importers:
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@library/effect-fn':
+      '@cseitz/effect-fn':
         specifier: workspace:*
         version: link:../effect-fn
-      '@library/effect-sequential-layer':
+      '@cseitz/effect-sequential-layer':
         specifier: workspace:*
         version: link:../effect-sequential-layer
-      '@library/effect-tag':
+      '@cseitz/effect-tag':
         specifier: workspace:*
         version: link:../effect-tag
       tsdown:
@@ -119,10 +119,10 @@ importers:
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@library/effect-fn':
+      '@cseitz/effect-fn':
         specifier: workspace:*
         version: link:../effect-fn
-      '@library/effect-tag':
+      '@cseitz/effect-tag':
         specifier: workspace:*
         version: link:../effect-tag
       tsdown:
@@ -169,10 +169,10 @@ importers:
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@library/effect-error':
+      '@cseitz/effect-error':
         specifier: workspace:*
         version: link:../effect-error
-      '@library/effect-logger':
+      '@cseitz/effect-logger':
         specifier: workspace:*
         version: link:../effect-logger
       tsdown:
@@ -197,7 +197,7 @@ importers:
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@library/effect-tag':
+      '@cseitz/effect-tag':
         specifier: workspace:*
         version: link:../effect-tag
       tsdown:
@@ -222,7 +222,7 @@ importers:
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@library/effect-tag':
+      '@cseitz/effect-tag':
         specifier: workspace:*
         version: link:../effect-tag
       tsdown:
@@ -247,7 +247,7 @@ importers:
       '@effect/vitest':
         specifier: ^0.27.0
         version: 0.27.0(effect@3.19.17)(vitest@4.0.18(@types/node@25.2.3)(tsx@4.21.0))
-      '@library/effect-tag':
+      '@cseitz/effect-tag':
         specifier: workspace:*
         version: link:../effect-tag
       tsdown:

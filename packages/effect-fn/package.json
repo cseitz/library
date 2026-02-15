@@ -1,5 +1,5 @@
 {
-  "name": "@library/effect-fn",
+  "name": "@cseitz/effect-fn",
   "version": "0.0.1",
   "description": "A fn for effects",
   "main": "./dist/index.cjs",
@@ -24,8 +24,8 @@
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
     "@effect/vitest": "^0.27.0",
-    "@library/effect-logger": "workspace:*",
-    "@library/effect-error": "workspace:*"
+    "@cseitz/effect-logger": "workspace:*",
+    "@cseitz/effect-error": "workspace:*"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",
@@ -57,6 +57,6 @@
     "effect": ">=3.19.17",
     "lodash-es": ">=4.17.22",
     "@types/lodash-es": ">=4.17.12",
-    "@library/effect-logger": ">=0.0.1"
+    "@cseitz/effect-logger": ">=0.0.1"
   }
 }

@@ -1,7 +1,7 @@
 import { fn } from '../index';
 import { it } from '@effect/vitest';
 import { Console, Effect } from 'effect';
-import { Error } from '@library/effect-error';
+import { Error } from '@cseitz/effect-error';
 
 class Err1 extends Error('Err1')() {
 }

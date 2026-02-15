@@ -2,7 +2,7 @@ import { YieldWrap } from 'effect/Utils'
 import { Effect, fn as baseFn, isEffect } from 'effect/Effect'
 import { Effect as _Effect, Context, Tracer } from 'effect'
 import { isFunction } from 'effect/Function'
-import { MinimumLogLevels } from '@library/effect-logger'
+import { MinimumLogLevels } from '@cseitz/effect-logger'
 
 /**
  * Utility to convert a union type to an intersection type.

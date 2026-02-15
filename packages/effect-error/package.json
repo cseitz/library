@@ -1,5 +1,5 @@
 {
-  "name": "@library/effect-error",
+  "name": "@cseitz/effect-error",
   "version": "0.0.1",
   "description": "A error for effects",
   "main": "./dist/index.cjs",

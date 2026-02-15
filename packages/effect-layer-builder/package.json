@@ -1,5 +1,5 @@
 {
-  "name": "@library/effect-layer-builder",
+  "name": "@cseitz/effect-layer-builder",
   "version": "0.0.1",
   "description": "A layer builder for effects",
   "main": "./dist/index.cjs",
@@ -24,7 +24,7 @@
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
     "@effect/vitest": "^0.27.0",
-    "@library/effect-tag": "workspace:*"
+    "@cseitz/effect-tag": "workspace:*"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",

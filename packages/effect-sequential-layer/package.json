@@ -1,5 +1,5 @@
 {
-  "name": "@library/effect-sequential-layer",
+  "name": "@cseitz/effect-sequential-layer",
   "version": "0.0.1",
   "description": "A sequential layer for effects",
   "main": "./dist/index.cjs",
@@ -24,7 +24,7 @@
     "tsdown": "^0.16.8",
     "typescript": "^5.9.3",
     "@effect/vitest": "^0.27.0",
-    "@library/effect-tag": "workspace:*"
+    "@cseitz/effect-tag": "workspace:*"
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",
@@ -56,6 +56,6 @@
     "effect": ">=3.19.17",
     "lodash-es": ">=4.17.22",
     "@types/lodash-es": ">=4.17.12",
-    "@library/effect-tag": ">=0.0.1"
+    "@cseitz/effect-tag": ">=0.0.1"
   }
 }

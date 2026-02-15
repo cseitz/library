@@ -1,4 +1,4 @@
-import { fn } from '@library/effect-fn';
+import { fn } from '@cseitz/effect-fn';
 import { Effect, Option } from 'effect';
 import { get, has, noop } from 'lodash-es';
 

@@ -12,8 +12,8 @@ pnpm test
 ## Usage
 
 ```ts
-import { LayerBuilder } from '@library/effect-layer-builder';
-import { Tag } from '@library/effect-tag';
+import { LayerBuilder } from '@cseitz/effect-layer-builder';
+import { Tag } from '@cseitz/effect-tag';
 import { Effect, Layer } from 'effect';
 
 const QueryBuilderDateDefinition = LayerBuilder.Definition({
