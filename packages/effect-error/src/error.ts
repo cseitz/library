@@ -17,7 +17,7 @@ export interface CommonErrorShape {
   cause?: unknown,
 }
 
-type ErrorClassInstance<Name, Shape, ConstantShape> = (
+export type ErrorClassInstance<Name, Shape, ConstantShape> = (
   & Cause.YieldableError
   & {
     readonly _tag: Name;
@@ -28,7 +28,7 @@ type ErrorClassInstance<Name, Shape, ConstantShape> = (
   & Readonly<Exclude<CommonErrorShape, keyof Shape>>
 )
 
-type ErrorClass<Self, Name extends string, Shape extends Record<string, any>, ConstantShape extends Record<string, any>> = (
+export type ErrorClass<Self, Name extends string, Shape extends Record<string, any>, ConstantShape extends Record<string, any>> = (
   & {
     new(data: Prettify<Exclude<Shape, keyof ConstantShape> & CommonErrorShape>): ErrorClassInstance<Name, Shape, ConstantShape>;
     readonly _tag: Name;

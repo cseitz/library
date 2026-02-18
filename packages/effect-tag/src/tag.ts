@@ -2,6 +2,14 @@ import { Cause, Context, Effect, Layer } from 'effect';
 import { LazyArg } from 'effect/Function';
 import { isFunction } from 'lodash-es';
 
+declare global {
+  interface EffectSimplifyTagGlobalRegistry {}
+}
+
+export type SimplifyEffectTags<T, Registry = EffectSimplifyTagGlobalRegistry> = T extends { _tag: infer TTag } ? (
+  // @ts-expect-error
+  Registry[TTag] extends { _tag: TTag } ? Registry[TTag] : T
+) : T;
 
 const makeTagProxy = (TagClass: Context.Tag<any, any> & Record<PropertyKey, any>) => {
   const cache = new Map()

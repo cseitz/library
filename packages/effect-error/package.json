@@ -1,6 +1,6 @@
 {
   "name": "@cseitz/effect-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A error for effects",
   "author": "cseitz",
   "keywords": [],
